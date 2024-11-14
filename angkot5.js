@@ -6,10 +6,7 @@ for(var noAngkot = 1; noAngkot <= jmlhAngkot; noAngkot++) {
     if(noAngkot <= angkotBeroprasi) {
         console.log(`Angkot ${noAngkot} sedang beroprasi`)
     } 
-    else if(noAngkot === 8) {
-        console.log(`Angkot ${noAngkot} sedang lembur`)
-    }
-    else if (noAngkot === 10) {
+    else if(noAngkot === 8 || noAngkot === 10) {
         console.log(`Angkot ${noAngkot} sedang lembur`)
     }
     else {
